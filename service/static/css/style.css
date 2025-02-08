@@ -80,6 +80,8 @@ header {
 .produtos {
     padding: 80px 0;
     background: #000000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
 }
 
 .produtos-grid {
@@ -134,6 +136,19 @@ footer {
 .footer-section a {
     color: #fff;
     text-decoration: none;
+}
+
+/* Arrumar as setas */
+.seta-direita {
+    padding-right: 100px;
+    padding-top: 30px;
+    float: right;
+}
+
+.seta-esquerda {
+    padding-left: 100px;
+    padding-top: 30px;
+    float: left;
 }
 
 /* Responsivo */
