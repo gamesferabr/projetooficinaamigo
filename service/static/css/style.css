@@ -88,7 +88,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     gap: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .produto-card {
@@ -97,6 +97,12 @@ header {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     text-align: center;
+}
+
+.produto-card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .produto-card img {
