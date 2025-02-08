@@ -83,6 +83,7 @@ header {
     justify-content: center;
     text-align: center;
 }
+
 .produtos {
     padding: 80px 0;
     background: #000000;
@@ -119,11 +120,13 @@ header {
 .produto-card h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
+    color: #000000;
 }
 
 .produto-card p {
     font-size: 0.9rem;
     margin-bottom: 20px;
+    color: #000000;
 }
 
 .produto-card:hover{
