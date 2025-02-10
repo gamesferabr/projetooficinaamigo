@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const carousel = document.querySelector(".produtos-grid");
 
-    // Adiciona os produtos ao carrossel
     products.forEach(product => {
         const productDiv = document.createElement("div");
         productDiv.classList.add("produto-card");
